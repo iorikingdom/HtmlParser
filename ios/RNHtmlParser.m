@@ -1,6 +1,4 @@
-
 #import "RNHtmlParser.h"
-
 #import "HTMLDocument.h"
 
 @interface RNHtmlParser()
