@@ -158,10 +158,8 @@
 		D50D1437206FE597007D00F3 /* HTMLNode+XPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HTMLNode+XPath.h"; sourceTree = "<group>"; };
 		D50D1438206FE597007D00F3 /* HTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLDocument.h; sourceTree = "<group>"; };
 		D50D1439206FE597007D00F3 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
-		D50D143E206FE5CC007D00F3 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		D50D1440206FE5E3007D00F3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D50D1442206FE5EB007D00F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D50D1446207012A9007D00F3 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,10 +232,8 @@
 		D50D143D206FE5CC007D00F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D50D1446207012A9007D00F3 /* libxml2.tbd */,
 				D50D1442206FE5EB007D00F3 /* Foundation.framework */,
 				D50D1440206FE5E3007D00F3 /* AVFoundation.framework */,
-				D50D143E206FE5CC007D00F3 /* libxml2.2.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
