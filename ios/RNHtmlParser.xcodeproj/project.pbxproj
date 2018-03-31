@@ -11,7 +11,7 @@
 		D50D143A206FE597007D00F3 /* HTMLNode+XPath.m in Sources */ = {isa = PBXBuildFile; fileRef = D50D1434206FE597007D00F3 /* HTMLNode+XPath.m */; };
 		D50D143B206FE597007D00F3 /* HTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D50D1435206FE597007D00F3 /* HTMLDocument.m */; };
 		D50D143C206FE597007D00F3 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D50D1436206FE597007D00F3 /* HTMLNode.m */; };
-		D50D149D20701721007D00F3 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D50D149C20701721007D00F3 /* libxml2.2.dylib */; };
+		D51228B5207018B0005B333C /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D50D149C20701721007D00F3 /* libxml2.2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +162,7 @@
 		D50D1442206FE5EB007D00F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D50D149A2070170B007D00F3 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		D50D149C20701721007D00F3 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
+		D51228B320701893005B333C /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D50D149D20701721007D00F3 /* libxml2.2.dylib in Frameworks */,
+				D51228B5207018B0005B333C /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +236,7 @@
 		D50D143D206FE5CC007D00F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D51228B320701893005B333C /* libxml2.tbd */,
 				D50D149C20701721007D00F3 /* libxml2.2.dylib */,
 				D50D149A2070170B007D00F3 /* libxml2.2.tbd */,
 				D50D1442206FE5EB007D00F3 /* Foundation.framework */,
