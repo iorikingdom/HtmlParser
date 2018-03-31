@@ -1,7 +1,7 @@
 
 import { NativeModules } from 'react-native';
 
-const { RNHtmlParser } = NativeModules;
+const { RNHtmlParser } = NativeModules.RNHtmlParser;
 
 export default class HtmlParser
 {
