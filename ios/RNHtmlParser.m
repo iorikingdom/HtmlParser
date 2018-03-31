@@ -24,6 +24,10 @@ RCT_EXPORT_METHOD(setHtml:(NSString *)html)
     _document =[HTMLDocument documentWithHTMLString:_html error:nil];
 }
 
+RCT_EXPORT_METHOD(test:(NSString *)html callback:(RCTResponseSenderBlock)callback)
+{
+    callback(@[@"fuck me"]);
+}
 
 
 @end
